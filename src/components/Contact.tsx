@@ -80,7 +80,7 @@ export default function Contact() {
                         <TiltWrapper>
                             <div className="bg-white/[0.02] border border-white/10 rounded-[2rem] p-8 md:p-12 shadow-lg backdrop-blur-sm">
                                 <p className="text-xl text-gray-300 font-light leading-relaxed mb-12">
-                                    Feel free to reach out for collaborations, career opportunities, or just to say hi. I'm always open to discussing new projects and creative ideas.
+                                    Feel free to reach out for collaborations, career opportunities, or just to say hi. I&apos;m always open to discussing new projects and creative ideas.
                                 </p>
 
                                 <div className="flex flex-col gap-8">
