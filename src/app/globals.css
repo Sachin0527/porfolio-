@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #121212;
+  --foreground: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes tabSwitchPopUp {
+  0% {
+    opacity: 0;
+    transform: perspective(1000px) rotateX(-10deg) scale(0.95);
+  }
+
+  100% {
+    opacity: 1;
+    transform: perspective(1000px) rotateX(0) scale(1);
+  }
+}
+
+.tab-switch-animation {
+  animation: tabSwitchPopUp 0.8s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+}
